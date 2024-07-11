@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|d:\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\password_manager\\password_manager\\wwwroot\\js\\mainscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|solutionrelative:wwwroot\\js\\mainscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|d:\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\password_manager\\password_manager\\wwwroot\\css\\mainstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|solutionrelative:wwwroot\\css\\mainstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|d:\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\password_manager\\password_manager\\models\\recordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|solutionrelative:models\\recordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|d:\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\password_manager\\password_manager\\controllers\\recordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|solutionrelative:controllers\\recordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|d:\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\password_manager\\password_manager\\services\\recordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|solutionrelative:services\\recordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|d:\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\password_manager\\password_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|d:\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\password_manager\\password_manager\\interfaces\\irecordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|solutionrelative:interfaces\\irecordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|d:\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\password_manager\\password_manager\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|d:\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\password_manager\\password_manager\\password_manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A50A016F-53F3-4A62-9FDC-53F1EF8D45C8}|Password_manager.csproj|solutionrelative:password_manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecordModel.cs",
+              "DocumentMoniker": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Models\\RecordModel.cs",
+              "RelativeDocumentMoniker": "Models\\RecordModel.cs",
+              "ToolTip": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Models\\RecordModel.cs",
+              "RelativeToolTip": "Models\\RecordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T20:49:16.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainStyle.css",
+              "DocumentMoniker": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\wwwroot\\css\\MainStyle.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\MainStyle.css",
+              "ToolTip": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\wwwroot\\css\\MainStyle.css",
+              "RelativeToolTip": "wwwroot\\css\\MainStyle.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-11T19:09:16.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainScript.js",
+              "DocumentMoniker": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\wwwroot\\js\\MainScript.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\MainScript.js",
+              "ToolTip": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\wwwroot\\js\\MainScript.js",
+              "RelativeToolTip": "wwwroot\\js\\MainScript.js",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwGQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-11T18:42:20.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecordsService.cs",
+              "DocumentMoniker": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Services\\RecordsService.cs",
+              "RelativeDocumentMoniker": "Services\\RecordsService.cs",
+              "ToolTip": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Services\\RecordsService.cs",
+              "RelativeToolTip": "Services\\RecordsService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T17:46:21.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRecordsService.cs",
+              "DocumentMoniker": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Interfaces\\IRecordsService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRecordsService.cs",
+              "ToolTip": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Interfaces\\IRecordsService.cs",
+              "RelativeToolTip": "Interfaces\\IRecordsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T17:35:58.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Password_manager",
+              "DocumentMoniker": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Password_manager.csproj",
+              "RelativeDocumentMoniker": "Password_manager.csproj",
+              "ToolTip": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Password_manager.csproj",
+              "RelativeToolTip": "Password_manager.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T16:02:20.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDbContext.cs",
+              "ToolTip": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\AppDbContext.cs",
+              "RelativeToolTip": "AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:02:55.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecordsController.cs",
+              "DocumentMoniker": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Controllers\\RecordsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecordsController.cs",
+              "ToolTip": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Controllers\\RecordsController.cs",
+              "RelativeToolTip": "Controllers\\RecordsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T13:56:05.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\Password_manager\\Password_manager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T11:32:28.005Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
