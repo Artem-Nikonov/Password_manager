@@ -24,9 +24,9 @@ namespace Password_manager.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetRecords()
+        public async Task<IActionResult> GetRecords([FromQuery] string filter)
         {
-            var records = await recordsService.GetRecords();
+            var records = await recordsService.GetRecords(filter);
             return Json(records);
         }
     }

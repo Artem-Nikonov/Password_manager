@@ -3,20 +3,21 @@
     const recordModal = document.getElementById('recordModal');
     const cancelButton = document.getElementById('cancelButton');
     const recordForm = document.getElementById('recordForm');
+    const errorsBox = document.getElementById("errors-box");
     const recordsTableBody = document.getElementById('recordsTableBody');
     const searchInput = document.getElementById('searchInput');
+    let records = [];
+
     loadRecords();
 
     addRecordButton.addEventListener('click', () => {
         recordModal.style.display = 'block';
     });
 
-
-
     cancelButton.addEventListener('click', () => {
         recordModal.style.display = 'none';
+        resetForm();
     });
-
 
     window.addEventListener('click', (event) => {
         if (event.target == recordModal) {
@@ -24,6 +25,7 @@
         }
     });
 
+    //Создание новой записи
     recordForm.addEventListener('submit', async (event) => {
         event.preventDefault();
         const formData = new FormData(recordForm);
@@ -34,8 +36,8 @@
             dateCreated: new Date()
         };
 
-        if (record.recordType == 'email' && !validateEmail(record.name)) {
-            alert('Некорректный адрес почты');
+        if (record.recordType === 'email' && !validateEmail(record.name)) {
+            errorsBox.textContent = 'Некорректный адрес почты.';
             return;
         }
 
@@ -46,56 +48,72 @@
         });
 
         if (response.ok) {
-            const firstRecord = recordsTableBody.firstChild;
-            recordsTableBody.insertBefore(createRecord(record), firstRecord);
+            records.unshift(record);
+            updateTable(records);
             recordModal.style.display = 'none';
+            resetForm();
         } else {
-            alert('Не удалось создать запись');
+            errorsBox.textContent = 'Не удалось создать запись.';
         }
     });
 
+    //Фильтрация записей в таблице
+    searchInput.addEventListener('input', () => {
+        const filter = searchInput.value.toLowerCase();
+        const filteredRecords = records.filter(record =>
+            record.name.toLowerCase().includes(filter)
+        );
+        updateTable(filteredRecords);
+    });
+
+    //Проверка корректности адреса почты
     function validateEmail(email) {
         const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return re.test(email);
     }
 
+    //Получение всех записей и обновление таблице на их основе
     async function loadRecords() {
-        console.log("lll");
         const response = await fetch('/records');
-        const records = await response.json();
-        const filter = searchInput.value.toLowerCase();
-
-        recordsTableBody.innerHTML = '';
-        records
-            .filter(record => record.name.toLowerCase().includes(filter))
-            .forEach(record => {
-                const row = createRecord(record); 
-                recordsTableBody.appendChild(row);
-            });
+        records = await response.json();
+        updateTable(records);
     }
 
+    //Обновление таблицы
+    function updateTable(records) {
+        recordsTableBody.innerHTML = '';
+        records.forEach(record => {
+            const row = createRecord(record);
+            recordsTableBody.appendChild(row);
+        });
+    }
+
+    //Отображение записи
     function createRecord(record) {
         const row = document.createElement('tr');
         row.innerHTML = `
-                    <td>${record.name}</td>
-                    <td>
-                        <span class="password-hidden">${record.password}</span>
-                        <button onclick="togglePasswordVisibility(this)">Show</button>
-                    </td>
-                    <td>${new Date(record.dateCreated).toLocaleString()}</td>
-                `;
+            <td>${record.name}</td>
+            <td>
+                <span id="password" class="password-span password-hidden">${record.password}</span>
+            </td>
+            <td>${new Date(record.dateCreated).toLocaleString()}</td>
+        `;
+        row.addEventListener("click", () => togglePasswordVisibility(row));
         return row;
     }
 
+    //Очистка формы
+    function resetForm() {
+        recordForm.reset();
+        errorsBox.textContent = '';
+    }
 });
 
-function togglePasswordVisibility(button) {
-    const passwordSpan = button.previousElementSibling;
+function togglePasswordVisibility(record) {
+    const passwordSpan = record.querySelector(".password-span");
     if (passwordSpan.classList.contains('password-hidden')) {
         passwordSpan.classList.remove('password-hidden');
-        button.textContent = 'Скрыть';
     } else {
         passwordSpan.classList.add('password-hidden');
-        button.textContent = 'Показать';
     }
 }

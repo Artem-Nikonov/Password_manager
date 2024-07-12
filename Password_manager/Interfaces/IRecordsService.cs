@@ -9,6 +9,6 @@ namespace Password_manager.Interfaces
         Task<bool> TryCreateRecord(RecordModel record);
 
         //Получение всех записей
-        Task<List<RecordModel>> GetRecords();
+        Task<List<RecordModel>> GetRecords(string? filter=null);
     }
 }

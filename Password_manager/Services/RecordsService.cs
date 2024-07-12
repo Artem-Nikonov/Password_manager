@@ -36,12 +36,17 @@ namespace Password_manager.Services
         }
 
         //Получение всех записей
-        public Task<List<RecordModel>> GetRecords()
+        public async Task<List<RecordModel>> GetRecords(string filter = null)
         {
             try
             {
-                var records = _dbContext.Records.OrderByDescending(record=>record.DateCreated)
-                                                .AsNoTracking().ToListAsync();
+                IQueryable <RecordModel> query = _dbContext.Records;
+
+                if (!string.IsNullOrEmpty(filter))
+                    query = query.Where(record => record.Name.Contains(filter));
+
+                var records = await query.OrderByDescending(record=>record.DateCreated)
+                                         .AsNoTracking().ToListAsync();
                 return records;
             }
             catch (Exception ex)

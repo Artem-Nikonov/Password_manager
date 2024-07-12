@@ -3,8 +3,8 @@
 }
 <link rel="stylesheet" href="~/css/MainStyle.css" asp-append-version="true" />
 <div class="container">
-    <button id="addRecordButton">Add Record</button>
-    <input type="text" id="searchInput" placeholder="Search by name...">
+    <button id="addRecordButton" class="custom-button">Создать запись</button>
+    <input type="text" id="searchInput" placeholder="Поиск..." class="input-field">
     <table>
         <thead>
             <tr>
@@ -14,28 +14,32 @@
             </tr>
         </thead>
         <tbody id="recordsTableBody">
-            <!-- Records will be dynamically inserted here -->
         </tbody>
     </table>
 </div>
 
-<div id="recordModal" class="modal">
+<div id="recordModal">
     <div class="modal-content">
         <form id="recordForm">
             <label for="name">Сайт/электронная почта:</label>
-            <input type="text" id="name" name="name" required>
+            <br />
+            <input type="text" id="name" name="name" required class="input-field">
             <br />
             <label for="password">Пароль:</label>
-            <input type="password" id="password" name="password" required minlength="8">
+            <br />
+            <input type="text" id="password" name="password" required minlength="8" class="input-field">
             <br />
             <label for="recordType">Тип записи:</label>
+            <br />
             <input type="radio" id="website" name="recordType" value="website" checked>
             <label for="website">Website</label>
             <input type="radio" id="email" name="recordType" value="email">
             <label for="email">Email</label>
-
-            <button type="submit">Сохранить</button>
-            <button type="button" id="cancelButton">Отмена</button>
+            <br />
+            <span id="errors-box" class="errors-summary-box"></span>
+            <br />
+            <button type="submit" class="custom-button">Сохранить</button>
+            <button type="button" id="cancelButton" class="custom-button">Отмена</button>
         </form>
     </div>
 </div>
